@@ -9,11 +9,14 @@
 
     
 }
+.img{
+    float: left;
+}
 .footer{
     padding:10px;
     color: white;
     text-align: center;
-    background-color: #ad1919;
+    background-color: rgb(127, 172, 167);
     font-size: 16px;
     border-color: #dddddd;
     
