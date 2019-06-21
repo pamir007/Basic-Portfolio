@@ -1,13 +1,11 @@
-.img{
-    float:left;
-}
+
  .header{
     color: white;
     font-size: 8px;
     font-family: 'Georgia', Times 'Times New Roman', Times, serif;
     text-align: right;
     padding:10px;
-    background: rgb(127, 172, 167);
+    background-color: rgb(127, 172, 167);
 
     
 }
@@ -15,8 +13,9 @@
     padding:10px;
     color: white;
     text-align: center;
-    background: rgb(127, 172, 167);
+    background-color: #ad1919;
     font-size: 16px;
+    border-color: #dddddd;
     
 }
 h2{
@@ -26,9 +25,10 @@ h2{
 }
  .aboutme{
      float:right;
+     font-family: 'Times New Roman', Times, serif
  }
 .me{
-    float: left;
+    float: right;
 }
 p{
     float: left;
@@ -45,16 +45,13 @@ p{
 
 }
 
-#contactForm{
+#CT{
     width: 960px;
     height:300px;
   
 }
-#xob{
-    width:960px;
-    
-}
-#oxb{
+
+#m{
     height:100px;
     width:960px;
     
