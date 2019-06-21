@@ -1,0 +1,72 @@
+.img{
+    float:left;
+}
+ .header{
+    color: white;
+    font-size: 8px;
+    font-family: 'Georgia', Times 'Times New Roman', Times, serif;
+    text-align: right;
+    padding:10px;
+    background: rgb(127, 172, 167);
+
+    
+}
+.footer{
+    padding:10px;
+    color: white;
+    text-align: center;
+    background: rgb(127, 172, 167);
+    font-size: 16px;
+    
+}
+h2{
+    font-size: 16px;
+    float:left;
+    color: black
+}
+ .aboutme{
+     float:right;
+ }
+.me{
+    float: left;
+}
+p{
+    float: left;
+    color: #777777; 
+    size:960px;
+    
+}
+
+.section{
+    float: center;
+    color:#ffff;
+    height:350px;
+    width:960px;
+
+}
+
+#contactForm{
+    width: 960px;
+    height:300px;
+  
+}
+#xob{
+    width:960px;
+    
+}
+#oxb{
+    height:100px;
+    width:960px;
+    
+}
+
+#message{
+    width:400px;
+    height:200px;
+}
+#name{
+    width:300px;
+}
+#email{
+    width:300px;
+}
