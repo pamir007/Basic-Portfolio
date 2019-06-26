@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-
-
 <title>Pamir Jantaev's Portfolio</title>
-
+</head>
 <body>
-  <div class="header">
-    <h2>Pamir Jantaev</h2>
+        <header id="masthead">
+                <div class="container">
+                <a href="index.html" id="logo">Pamir Jantaev</a>
+              
+                  <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+              
+                  </nav>
+                </div>
+        </header>
+        
+        
+<div id="main-container" class="container">
+<section class="main-container">
+            <h1>Contact</h1>
+        <form id="contact-form">
+            <ul>
+                <li>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required="required">
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required="required">
+                </li>
+                <li>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+                </li>
+              </ul>
+              <input type="submit">
+          </form>
 
-    <h1>
-      <a href="index.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+           
+      
+  </section>
+</div>
+       
 
-    </h1>
-  </div>
-
-  <body>
-
-    <h1>Contact</h1>
-    <hr>
-
-    <form action="contact" id="CT">
-      Name:<br>
-      <input type="text" id="name">
-      <br>
-      Email:<br>
-      <input type="text" id="email">
-      <br>
-      <div class="row">
-
-        <div id="m">
-          <label for="message">Message</label>
+    <footer>
+        <div class="container">
+        &copy; Copyright 2019
         </div>
-        <div id="m">
-          <textarea id="message" name="message" placeholder="Text here.."></textarea>
-        </div>
-      </div>
-      <br>
-    </form>
-
-    <button class="btn" id="submit">Submit</button>
-
-
-
-    <hr>
-
-    <footer class="footer">
-      <a href="">Copyright</a>
     </footer>
-  </body>
+</body>
 
 </html>
